@@ -1,0 +1,14 @@
+
+.box-1{
+    background-color: #202020;
+    height:52px;
+    /* width: 100vw; */
+}
+/* .login a{
+    padding-left: 50px;
+} */
+@media all and (max-width: 838px) {
+}
+@media all and (min-width: 839px) {
+}
+
