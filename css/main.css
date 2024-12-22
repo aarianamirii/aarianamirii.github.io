@@ -1,14 +1,35 @@
 
-.box-1{
-    background-color: #202020;
-    height:52px;
-    /* width: 100vw; */
-}
-/* .login a{
-    padding-left: 50px;
-} */
-@media all and (max-width: 838px) {
-}
-@media all and (min-width: 839px) {
-}
-
+body {
+    font-family: sans-serif;
+  }
+  .navbar{
+    font-size: 18px;
+  }
+  .main {
+    background-image: url("../Images/main.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  /* .card:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+  } */
+  .products{
+    font-size: 18px;
+  }
+  
+  footer {
+    font-size: 0.9rem;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .navbar li {
+      font-size: 2rem;
+      display: none;
+    }
+  }
+  
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,16 @@
+{
+  "name": "chai-golestan",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "scss": "sass --watch css/main.scss css/main.css" 
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "sass": "^1.83.0"
+  }
+}
