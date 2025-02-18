@@ -1,35 +1,67 @@
-
 body {
-    font-family: sans-serif;
-  }
-  .navbar{
-    font-size: 18px;
-  }
-  .main {
-    background-image: url("../Images/main.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-  }
-  
-  /* .card:hover {
-    transform: scale(1.05);
-    transition: transform 0.3s ease;
-  } */
-  .products{
-    font-size: 18px;
-  }
-  
-  footer {
-    font-size: 0.9rem;
-  }
-  
-  /* Responsive Styles */
-  @media (max-width: 768px) {
-    .navbar li {
-      font-size: 2rem;
-      display: none;
-    }
-  }
-  
-/*# sourceMappingURL=main.css.map */
+  font-family: sans-serif;
+}
+a,p,h1,h2,h3,h4,h5,h6,nav{
+     direction: rtl;
+}
+.hero-section {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+}
+.carousel-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+.cta-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.department-card img {
+  height: 200px;
+  object-fit: none;
+}
+.footer {
+  padding: 20px 0;
+}
+.img {
+  width: 110px;
+}
+
+.nav-item:hover {
+  border-bottom: 2px solid rgb(89, 118, 164);
+  box-shadow: 0 30px 30px rgba(0, 0, 0, 0.1);
+}
+.card:hover {
+  border: 2px solid rgb(89, 118, 164);
+}
+.btn-primary {
+    background-color: #5c85e6;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+.btn-outline:hover {
+    background-color: #5c85e6;
+    color: white;
+}
+
+.custom-alert {
+    background-color: #ff9955;
+    border: 2px dashed #a94442;
+    border-radius: 15px;
+    padding: 15px;
+    text-align: center;
+    font-weight: bold;
+    max-width: 80%;
+    margin: auto;
+}
+.custom-alert p {
+    font-weight: normal;
+    margin-top: 5px;
+}
+
+

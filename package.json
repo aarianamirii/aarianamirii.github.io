@@ -1,16 +1,15 @@
 {
-  "name": "chai-golestan",
+  "dependencies": {
+    "bootstrap": "^5.3.3"
+  },
+  "name": "new-folder",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "scss": "sass --watch css/main.scss css/main.css" 
-
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
-  "dependencies": {
-    "sass": "^1.83.0"
-  }
+  "description": ""
 }
