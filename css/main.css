@@ -1,24 +1,45 @@
-body {
-  font-family: sans-serif;
+@font-face {
+  font-family: 'IRANSansWeb';
+  src: url('../fonts/IRANSansWeb.eot');
+  src: url('IRANSansWeb.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/IRANSansWeb.woff2') format('woff2'),
+      url('../fonts/IRANSansWeb.woff') format('woff'),
+      url('../fonts/IRANSansWeb.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
-a,p,h1,h2,h3,h4,h5,h6,nav{
-     direction: rtl;
+
+
+body {
+  font-family:'IRANSansWeb';
+}
+a,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+nav {
+  direction: rtl;
 }
 .hero-section {
-    background-color: #f8f9fa;
-    padding: 20px;
-    text-align: center;
+  background-color: #f8f9fa;
+  padding: 20px;
+  text-align: center;
 }
 .carousel-item img {
-    width: 100%;
-    border-radius: 10px;
+  width: 100%;
+  border-radius: 10px;
 }
 .cta-button {
-    background-color: #007bff;
-    color: white;
-    padding: 10px 20px;
-    border-radius: 5px;
-    text-decoration: none;
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
 }
 .department-card img {
   height: 200px;
@@ -31,37 +52,111 @@ a,p,h1,h2,h3,h4,h5,h6,nav{
   width: 110px;
 }
 
-.nav-item:hover {
-  border-bottom: 2px solid rgb(89, 118, 164);
+.btn-primary {
+  background-color: #5c85e6;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+}
+.btn-outline:hover {
+  background-color: #5c85e6;
+  color: white;
+}
+
+.custom-alert {
+  background-color: #ff9955;
+  border: 2px dashed #a94442;
+  border-radius: 15px;
+  padding: 15px;
+  text-align: center;
+  font-weight: bold;
+  max-width: 80%;
+  margin: auto;
+}
+.custom-alert p {
+  font-weight: normal;
+  margin-top: 5px;
+}
+.department {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+.department img {
+  width: 50px;
+  height: 50px;
+}
+.textdecor {
+  text-decoration: none;
+}
+.imgcontainer {
+  direction: rtl;
+}
+.cards-wrapper {
+  display: flex;
+}
+.cardss {
+  height: 420px;
+  background-color: whitesmoke;
+  margin: 1em;
+  /* width: calc(100% / 4); */
+  border: 1px solid transparent;
+  border-radius: 30px;
+}
+.news-section {
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+}
+.tab-content {
+  width: 30vw;
+  border: 1px solid #dee2e6;
+  border-radius: 10px;
+  padding: 20px;
+}
+.news-list li {
+  padding: 10px 0;
+  border-bottom: 1px solid #dee2e6;
+  border-radius: 10px;
+}
+.news-list li:last-child {
+  border-bottom: none;
+}
+.consultation-section {
+  padding: 40px 0;
+  direction: rtl;
+  text-align: center;
+}
+.consultation-box {
+  display: inline-block;
+  padding: 10px 20px;
+  background: rgb(236, 231, 231);
+  border-radius: 25px;
+}
+.news-list li:hover{
+  background-color: lightgray;
+  cursor: pointer;
+}
+.cardss:hover {
+  border: 2px solid rgba(170, 170, 170, 0.1);
+  cursor: pointer;
+  border-radius: 30px;
+  box-shadow: 0 30px 30px rgba(0, 0, 0, 0.5);
+}
+.hover:hover {
+  border: 2px solid rgba(170, 170, 170, 0.8);
+  cursor: pointer;
+  border-radius: 10px;
   box-shadow: 0 30px 30px rgba(0, 0, 0, 0.1);
+}
+.imghover:hover {
+  border: 4px solid rgb(255, 255, 255);
 }
 .card:hover {
   border: 2px solid rgb(89, 118, 164);
 }
-.btn-primary {
-    background-color: #5c85e6;
-    border: none;
-    border-radius: 20px;
-    padding: 10px 20px;
+.nav-item:hover {
+  border-bottom: 2px solid rgb(89, 118, 164);
+  box-shadow: 0 30px 30px rgba(0, 0, 0, 0.1);
 }
-.btn-outline:hover {
-    background-color: #5c85e6;
-    color: white;
-}
-
-.custom-alert {
-    background-color: #ff9955;
-    border: 2px dashed #a94442;
-    border-radius: 15px;
-    padding: 15px;
-    text-align: center;
-    font-weight: bold;
-    max-width: 80%;
-    margin: auto;
-}
-.custom-alert p {
-    font-weight: normal;
-    margin-top: 5px;
-}
-
-
